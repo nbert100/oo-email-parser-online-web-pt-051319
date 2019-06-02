@@ -13,6 +13,6 @@ class EmailParser
   
   def parse
     # email.split(/[\s,]/).uniq
-      emails.delete(',').split.uniq
+      email.delete(',').split.uniq
   end
 end
